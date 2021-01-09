@@ -13,6 +13,7 @@ void BFS(int node, vector<vector<int>> line);
 int n, m;
 int cnt;
 
+
 int main() {
 	cin >> n >> m;
 
