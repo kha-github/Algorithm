@@ -15,4 +15,3 @@ for coin in coin_types:
 
 
 print(cnt)
-
