@@ -29,6 +29,5 @@ int funct(int length) {
 	dptable[length] = funct(length - 1)%10007 + 2*funct(length - 2)%10007;
 
 	return dptable[length];
-
 }
 
