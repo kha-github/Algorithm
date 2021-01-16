@@ -15,4 +15,5 @@ int solution(vector<vector<string>> clothes) {
         answer *= (iter->second.size()+1);
     
     return answer-1;
+    
 }
