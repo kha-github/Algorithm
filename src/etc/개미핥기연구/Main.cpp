@@ -65,4 +65,5 @@ void DFS(const int check[10][10], int row, int col, int n) {
     DFS(new_check, row, col - 1, n + 1);
     DFS(new_check, row + 1, col, n + 1);
     DFS(new_check, row, col + 1, n + 1);
+    
 }
