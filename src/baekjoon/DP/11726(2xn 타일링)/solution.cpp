@@ -18,6 +18,7 @@ int main() {
 	cout << funct(number)%10007;
 
 	return 0;
+	
 }
 
 int funct(int length) {
