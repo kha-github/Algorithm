@@ -45,4 +45,5 @@ void DFS(const int check[29][29], int row, int col, double temp, int n) {
     DFS(new_check, row, col-1, west * temp, n-1);
     DFS(new_check, row + 1 , col, south * temp, n-1);
     DFS(new_check, row, col + 1, east * temp, n-1);
+    
 }
