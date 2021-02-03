@@ -8,7 +8,6 @@
 #define MAXIMUM 1000000
 using namespace std;
 
-
 int funct(int number);
 int dptable[1000001];
 
